@@ -8,3 +8,8 @@ See also:
 [Mac Development Ansible Playbook](https://github.com/geerlingguy/mac-dev-playbook) - the original inspiration for this repo.
 
 ## Installation
+```powershell
+PS C:\> Invoke-RestMethod -Uri https://raw.githubusercontent.com/lagebj/PSClientInstall/master/scripts/InstallRequirements.ps1 -OutFile "$env:TEMP\InstallRequirements.ps1"
+
+PS C:\> . "$env:TEMP\InstallRequirements.ps1"
+```
