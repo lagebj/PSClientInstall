@@ -1,4 +1,4 @@
-﻿# Install Chocolatey.
+﻿# Install Chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 Set-ExecutionPolicy RemoteSigned -Scope Process -Force
 
@@ -7,7 +7,6 @@ $null = refreshenv
 
 # Install pacakges
 choco install -y git.install --params '/GitAndUnixToolsOnPath /NoGitLfs /SChannel /NoAutoCrlf /WindowsTerminal /NoShellIntegration' --no-progress --limit-output
-choco install -y powershell-core vscode --no-progress --limit-output
 
 # Create folders
 [string[]] $Folders = @(
@@ -25,5 +24,9 @@ foreach ($Item in $Folders) {
 # Refresh environmental variables
 $null = refreshenv
 
-# Run Visual Studio Code
-& code
+# Clone repository
+Push-Location "$env:SystemDrive\git"
+git config --global user.name 'lagebj'
+git config --global user.email 'lage.berger.jensen@outlook.com'
+git clone https://github.com/lagebj/PSClientInstall.git
+Pop-Location

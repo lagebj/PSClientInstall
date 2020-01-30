@@ -1,0 +1,19 @@
+﻿{
+    "workbench.colorTheme": "1984",
+    "files.encoding": "utf8bom",
+    "csharp.suppressDotnetRestoreNotification": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "omnisharp.projectLoadTimeout": 120,
+    "files.trimTrailingWhitespace": true,
+    "files.autoGuessEncoding": true,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+    "team.showWelcomeMessage": false,
+    "explorer.confirmDelete": false,
+    "powershell.powerShellExePath": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+    "window.zoomLevel": -1,
+    "workbench.iconTheme": "vscode-icons",
+    "powershell.codeFormatting.autoCorrectAliases": true,
+    "powershell.codeFormatting.preset": "OTBS"
+}

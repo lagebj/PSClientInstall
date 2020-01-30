@@ -1,0 +1,1 @@
+﻿choco install -y powershell-core vscode sysinternals putty notepadplusplus bitwarden brave greenshot irfanview --no-progress --limit-output

@@ -1,0 +1,2 @@
+﻿Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
+'PackageManagement','Passphraser','Pester','platyPS','posh-git','PowerShellGet','psake','WindowsCompatibility' | Install-Module -Scope CurrentUser

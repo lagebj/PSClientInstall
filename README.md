@@ -12,4 +12,8 @@ See also:
 PS C:\> Invoke-RestMethod -Uri https://raw.githubusercontent.com/lagebj/PSClientInstall/master/scripts/InstallRequirements.ps1 -OutFile "$env:TEMP\InstallRequirements.ps1"
 
 PS C:\> . "$env:TEMP\InstallRequirements.ps1"
+
+PS C:\> Set-Location C:\git\PSClientInstall
+
+PS C:\> . .\Install.ps1
 ```
