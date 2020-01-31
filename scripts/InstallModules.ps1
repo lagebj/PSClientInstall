@@ -1,2 +1,3 @@
-﻿Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
-'PackageManagement','Passphraser','Pester','platyPS','posh-git','PowerShellGet','psake','WindowsCompatibility' | Install-Module -Scope CurrentUser -AllowClobber
+﻿. '..\files\modules.ps1'
+Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
+$Modules | Install-Module -Scope CurrentUser -AllowClobber

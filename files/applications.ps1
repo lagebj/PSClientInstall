@@ -1,4 +1,5 @@
-﻿[string[]] $Applications = @(
+﻿[System.Diagnostics.CodeAnalysis.SuppressMessage('PSUseDeclaredVarsMoreThanAssigments', '')]
+[string[]] $Applications = @(
     'powershell-core',
     'vscode',
     'sysinternals',
