@@ -31,7 +31,7 @@ PS C:\> . .\Install.ps1
 - Irfanview
 
 #### Powershell profiles
-Powershell profiles for Visual Studio Code are created for Powershell Core and Windows Powershell. See [profile.ps1](files\profile.ps1).
+Powershell profiles for Visual Studio Code are created for Powershell Core and Windows Powershell. See [profile.ps1](files/profile.ps1).
 
 #### Directories
 `C:\git` and `C:\temp` are created.
