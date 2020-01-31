@@ -17,6 +17,7 @@ PS C:\> Set-Location C:\git\PSClientInstall
 
 PS C:\> . .\Install.ps1
 ```
+> Note: If one or more commands fail you might need to restart Powershell and run InstallRequirements.ps1 and/or Install.ps1 again. This is because ofchanges to `PATH`.
 
 ## Applications and configuration
 #### Chocolatey
