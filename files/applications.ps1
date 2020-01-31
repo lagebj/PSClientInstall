@@ -3,7 +3,7 @@
     'vscode',
     'sysinternals',
     'putty',
-    'notepadplusplus',
+    'sublimetext3',
     'bitwarden',
     'brave',
     'greenshot',

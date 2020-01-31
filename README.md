@@ -25,7 +25,7 @@ PS C:\> . .\Install.ps1
 - Visual Studio Code
 - Sysinternals
 - Putty
-- Notepad++
+- Sublime Text
 - Bitwarden
 - Brave
 - Greenshot
@@ -35,4 +35,9 @@ PS C:\> . .\Install.ps1
 Powershell profiles for Visual Studio Code are created for Powershell Core and Windows Powershell. See [profile.ps1](files/profile.ps1).
 
 #### Directories
-`C:\git` and `C:\temp` are created.
+- C:\git
+- C:\temp
+- ~\Documents\PowerShell\Scripts
+
+## Todo, maybe?
+- Install mRemoteNG?
