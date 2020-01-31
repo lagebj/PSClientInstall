@@ -17,3 +17,21 @@ PS C:\> Set-Location C:\git\PSClientInstall
 
 PS C:\> . .\Install.ps1
 ```
+
+## Applications and configuration
+#### Chocolatey
+- Powershell Core
+- Visual Studio Code
+- Sysinternals
+- Putty
+- Notepad++
+- Bitwarden
+- Brave
+- Greenshot
+- Irfanview
+
+#### Powershell profiles
+Powershell profiles for Visual Studio Code are created for Powershell Core and Windows Powershell. See [profile.ps1](files\profile.ps1).
+
+#### Directories
+`C:\git` and `C:\temp` are created.

@@ -1,1 +1,2 @@
-﻿choco install -y powershell-core vscode sysinternals putty notepadplusplus bitwarden brave greenshot irfanview --no-progress --limit-output
+﻿. '..\files\applications.ps1'
+choco install -y $($Applications -join ' ') --no-progress --limit-output
