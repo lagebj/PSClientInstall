@@ -1,4 +1,5 @@
-﻿'juanmnl.vscode-theme-1984', 'ms-vscode.powershell', 'vscode-icons-team.vscode-icons' | ForEach-Object {
+﻿. '..\files\vscode-extensions.ps1'
+$VSCodeExtensions | ForEach-Object {
     [hashtable] $ProcessParameters = @{
         FilePath = 'code'
         ArgumentList = @(

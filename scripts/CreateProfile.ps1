@@ -8,5 +8,5 @@ foreach ($File in $Profiles) {
         $null = Remove-Item -Path $File -Force
     }
 
-    Copy-Item -Path '..\files\profile.ps1' -Destination $File
+    Copy-Item -Path '..\files\profile.ps1' -Destination $File -Force
 }
