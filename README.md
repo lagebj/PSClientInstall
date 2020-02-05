@@ -17,7 +17,7 @@ PS C:\> Set-Location C:\git\PSClientInstall
 
 PS C:\> . .\Install.ps1
 ```
-> Note: If one or more commands fail you might need to restart Powershell and run InstallRequirements.ps1 and/or Install.ps1 again. This is because ofchanges to `PATH`.
+> Note: If one or more commands fail you might need to restart Powershell and run InstallRequirements.ps1 and/or Install.ps1 again. This is because of changes to `PATH`.
 
 ## Applications and configuration
 #### Chocolatey
@@ -30,6 +30,7 @@ PS C:\> . .\Install.ps1
 - Brave
 - Greenshot
 - Irfanview
+- Malwarebytes
 
 #### Powershell profiles
 Powershell profiles for Visual Studio Code are created for Powershell Core and Windows Powershell. See [profile.ps1](files/profile.ps1).

@@ -7,5 +7,6 @@
     'posh-git',
     'PowerShellGet',
     'psake',
+    'BuildHelpers',
     'WindowsCompatibility'
 )
