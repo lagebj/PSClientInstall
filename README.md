@@ -8,6 +8,7 @@ See also:
 [Mac Development Ansible Playbook](https://github.com/geerlingguy/mac-dev-playbook) - the original inspiration for this repo.
 
 ## Installation
+
 ```powershell
 PS C:\> Invoke-RestMethod -Uri https://raw.githubusercontent.com/lagebj/PSClientInstall/master/scripts/InstallRequirements.ps1 -OutFile "$env:TEMP\InstallRequirements.ps1"
 
@@ -17,10 +18,13 @@ PS C:\> Set-Location C:\git\PSClientInstall
 
 PS C:\> . .\Install.ps1
 ```
+
 > Note: If one or more commands fail you might need to restart Powershell and run InstallRequirements.ps1 and/or Install.ps1 again. This is because of changes to `PATH`.
 
 ## Applications and configuration
-#### Chocolatey
+
+### Chocolatey
+
 - Powershell Core
 - Visual Studio Code
 - Sysinternals
@@ -32,13 +36,16 @@ PS C:\> . .\Install.ps1
 - Irfanview
 - Malwarebytes
 
-#### Powershell profiles
+### Powershell profiles
+
 Powershell profiles for Visual Studio Code are created for Powershell Core and Windows Powershell. See [profile.ps1](files/profile.ps1).
 
-#### Directories
+### Directories
+
 - C:\git
 - C:\temp
 - ~\Documents\PowerShell\Scripts
 
 ## Todo, maybe?
+
 - Install mRemoteNG?
