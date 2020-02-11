@@ -8,5 +8,7 @@
     'bitwarden',
     'brave',
     'greenshot',
-    'irfanview'
+    'irfanview',
+    'malwarebytes',
+    'vlc'
 )

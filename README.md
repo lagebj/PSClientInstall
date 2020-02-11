@@ -35,6 +35,7 @@ PS C:\> . .\Install.ps1
 - Greenshot
 - Irfanview
 - Malwarebytes
+- VLC
 
 ### Powershell profiles
 
