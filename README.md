@@ -53,5 +53,4 @@ Powershell profiles for Visual Studio Code are created for Powershell Core and W
 
 ## Links
 
-- [STIG GPOs](https://public.cyber.mil/stigs/gpo/)
-- 
+- [Security Technical Implementation Guide compatible GPOs](https://public.cyber.mil/stigs/gpo/)
