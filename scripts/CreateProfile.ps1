@@ -1,4 +1,8 @@
-﻿[string[]] $Profiles = @(
+﻿Param(
+    [string] $ScriptRoot
+)
+
+[string[]] $Profiles = @(
     "$env:HOME\Documents\PowerShell\Microsoft.VSCode_profile.ps1",
     "$env:HOME\Documents\WindowsPowerShell\Microsoft.VSCode_profile.ps1"
 )
@@ -8,5 +12,5 @@ foreach ($File in $Profiles) {
         $null = Remove-Item -Path $File -Force
     }
 
-    Copy-Item -Path '..\files\profile.ps1' -Destination $File -Force
+    Copy-Item -Path "$ScriptRoot\files\profile.ps1" -Destination $File -Force
 }

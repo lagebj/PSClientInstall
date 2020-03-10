@@ -1,5 +1,9 @@
-﻿. '..\files\vscode-extensions.ps1'
-$VSCodeExtensions | ForEach-Object {
+﻿Param(
+    [string] $ScriptRoot
+)
+
+. "$ScriptRoot\files\vscode-extensions.ps1"
+foreach ($Extension in $VSCodeExtensions) {
     [hashtable] $ProcessParameters = @{
         FilePath = 'code'
         ArgumentList = @(
@@ -17,4 +21,4 @@ if (Test-Path -Path "$env:APPDATA\Roaming\Code\User\settings.json") {
     $null = Remove-Item -Path "$env:APPDATA\Roaming\Code\User\settings.json" -Force
 }
 
-Copy-Item -Path '..\files\settings.json' -Destination "$env:APPDATA\Roaming\Code\User" -Force
+Copy-Item -Path "$ScriptRoot\files\settings.json" -Destination "$env:APPDATA\Roaming\Code\User" -Force

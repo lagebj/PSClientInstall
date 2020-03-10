@@ -1,3 +1,11 @@
-﻿. '..\files\modules.ps1'
+﻿Param(
+    [string] $ScriptRoot
+)
+
+. "$ScriptRoot\files\modules.ps1"
+
 Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
-$Modules | Install-Module -Scope CurrentUser -AllowClobber
+
+foreach ($Module in $Modules) {
+    Install-Module -Name $Module -Scope CurrentUser -AllowClobber
+}
