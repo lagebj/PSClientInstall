@@ -50,3 +50,8 @@ Powershell profiles for Visual Studio Code are created for Powershell Core and W
 ## Todo, maybe?
 
 - Install mRemoteNG?
+
+## Links
+
+- [STIG GPOs](https://public.cyber.mil/stigs/gpo/)
+- 
