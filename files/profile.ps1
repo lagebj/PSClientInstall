@@ -8,6 +8,4 @@
 'platyPS',
 'posh-git',
 'PowerShellGet',
-'psake',
-'WindowsCompatibility',
-"$env:HOME\.vscode\extensions\ms-vscode.powershell*\modules\PowerShellEditorServices\PowerShellEditorServices.psd1" | Import-Module
+'psake' | Import-Module

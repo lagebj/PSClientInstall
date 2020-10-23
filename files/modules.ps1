@@ -8,5 +8,7 @@
     'PowerShellGet',
     'psake',
     'BuildHelpers',
-    'WindowsCompatibility'
+    'DscBuildHelpers',
+    'Az',
+    'Az.ResourceGraph'
 )

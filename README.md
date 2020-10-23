@@ -49,8 +49,7 @@ Powershell profiles for Visual Studio Code are created for Powershell Core and W
 
 ## Todo, maybe?
 
-- Install mRemoteNG?
-
 ## Links
 
 - [Security Technical Implementation Guide compatible GPOs](https://public.cyber.mil/stigs/gpo/)
+- [Azure Block Blob Storage Backup](https://azure.microsoft.com/en-us/blog/microsoft-azure-block-blob-storage-backup/)
